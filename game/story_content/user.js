@@ -2,10 +2,10 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "67WgCkJF5Ha":
+      case "5XW0kXHZQeC":
         Script1();
         break;
-      case "5g5lwlXbRvF":
+      case "617frgpDiKo":
         Script2();
         break;
   }
@@ -13,39 +13,16 @@ function ExecuteScript(strId)
 
 function Script1()
 {
-  // Replace this URL with your Web App URL
-const url = "https://script.google.com/macros/s/AKfycbz1jcLdPAKCJHVAia7BwL9-UgnAxfVEcAY8jnS8ydRig6SXMG-naM3CA6Ryu-ix6QpJuw/exec";
-
-const player = GetPlayer();
-let feedBack = player.GetVar("name"); // Replace "UserFeedback" with your Storyline Variable.
-
-
-fetch(url,{
-  method: 'POST',
-  mode: 'no-cors', 
-  cache: 'no-cache', 
-  headers: {'Content-Type': 'application/json'},
-  redirect: 'follow',
-  body: JSON.stringify({text: feedBack}) 
-});
+  if(void 0===window.stencilsheets){var player=GetPlayer(),targlink="https://cluelabs.com/stencil/display/widget-sheets-init-v2?authtool=sl&v=1670346495&chart=NzE4fDM1NDl8ZDU4NWVjYTY5MzA4NGRmYmY5ZmYzMjg2NjU4YzYyYzQ";xhttp=new XMLHttpRequest,xhttp.onreadystatechange=function(){if(4==this.readyState&&200==this.status&&""!=this.responseText){var e=this.responseText,t=document.getElementsByTagName("head")[0],n=document.createElement("script");t.appendChild(n),n.appendChild(document.createTextNode(e)),window.stencilsheets=!0}},xhttp.open("GET",targlink,!0),xhttp.send()}
+        
 }
 
 function Script2()
 {
-  // Replace this URL with your Web App URL
-const url = "https://script.google.com/macros/s/AKfycbz1jcLdPAKCJHVAia7BwL9-UgnAxfVEcAY8jnS8ydRig6SXMG-naM3CA6Ryu-ix6QpJuw/exec";
-
-const player = GetPlayer();
-let feedBack = player.GetVar("snif"); // Replace "UserFeedback" with your Storyline Variable.
-
-
-fetch(url,{
-  method: 'POST',
-  mode: 'no-cors', 
-  cache: 'no-cache', 
-  headers: {'Content-Type': 'application/json'},
-  redirect: 'follow',
-  body: JSON.stringify({text: feedBack}) 
-});
+  var player = GetPlayer();
+SheetsSet('שם', player.GetVar('name'));
+SheetsSet('סניף', player.GetVar('snif'));
+SheetsSet('מחוז', player.GetVar('district'));
+SheetsSet('טלפון', player.GetVar('Tel'));
 }
 
