@@ -2,11 +2,14 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6OWJsVJrVFu":
+      case "6qML5MiicdV":
         Script1();
         break;
-      case "6WvYj13zZ8T":
+      case "5dPoQYuovkn":
         Script2();
+        break;
+      case "6AUvqlvorR2":
+        Script3();
         break;
   }
 }
@@ -20,10 +23,14 @@ function Script1()
 function Script2()
 {
   var player = GetPlayer();
-SheetsSet('שם', player.GetVar('name'),
-		'סניף',player.GetVar('snif'),
-		'מחוז', player.GetVar('district'),
-		'טלפון', player.GetVar('Tel'));
+SheetsSet('שם', player.GetVar('name'));
+
+}
+
+function Script3()
+{
+  var player = GetPlayer();
+SheetsSet('סניף', player.GetVar('snif'));
 
 }
 
