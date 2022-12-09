@@ -2,26 +2,32 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6XSUqZrHLsq":
+      case "5hIdNVfQ3Kz":
         Script1();
         break;
-      case "6paFyi4aInY":
+      case "6ELKBmDV9vi":
         Script2();
         break;
-      case "6gWpVP61Tyv":
+      case "6BR9nYJzgkH":
         Script3();
         break;
-      case "60oH2JzBZqI":
+      case "6VItzVsVYTj":
         Script4();
         break;
-      case "5sgBcHH8E2V":
+      case "6F10ZJk1fsR":
         Script5();
         break;
-      case "5UgaDDJ7i4e":
+      case "6MPV2ipPiKx":
         Script6();
         break;
-      case "5iv5qLWpGrC":
+      case "5iNkUOgdxXO":
         Script7();
+        break;
+      case "6K3gshq2P41":
+        Script8();
+        break;
+      case "5Y6suAjcpHC":
+        Script9();
         break;
   }
 }
@@ -42,32 +48,52 @@ SheetsSet('שם', player.GetVar('name'));
 function Script3()
 {
   var player = GetPlayer();
-SheetsSet('סניף', player.GetVar('snif'));
+SheetsSet('טלפון', player.GetVar('Tel'));
 
 }
 
 function Script4()
 {
   var player = GetPlayer();
-SheetsSet('מחוז', player.GetVar('district'));
+SheetsSet('סניף', player.GetVar('snif'));
 
 }
 
 function Script5()
 {
   var player = GetPlayer();
-SheetsSet('טלפון', player.GetVar('Tel'));
+SheetsSet('עיר', player.GetVar('city'));
 
 }
 
 function Script6()
 {
   var player = GetPlayer();
-SheetsSet('שם', player.GetVar('name'));
+SheetsSet('מחוז', player.GetVar('district'));
 
 }
 
 function Script7()
+{
+  var today = new Date();
+var date=today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
+//var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+var dateTime = date+' '+time;
+
+SheetsSet('תאריך הרשמה', dateTime);
+
+}
+
+function Script8()
+{
+  var player = GetPlayer();
+SheetsSet('שם', player.GetVar('name'));
+
+}
+
+function Script9()
 {
   var player = GetPlayer();
 SheetsSet('סניף', player.GetVar('snif'));
