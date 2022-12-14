@@ -2,61 +2,61 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5Xp9bQrsLAc":
+      case "67cwtTs6Rst":
         Script1();
         break;
-      case "66NIRn5fv2L":
+      case "6p85NjhgUV5":
         Script2();
         break;
-      case "5VgImtQHsP4":
+      case "6RG72P2tgZa":
         Script3();
         break;
-      case "6dX2CoTseDE":
+      case "6gSQr7R2ZKe":
         Script4();
         break;
-      case "6WYxrme7U4S":
+      case "5bTLHHMrCWi":
         Script5();
         break;
-      case "5qCmqyIt5um":
+      case "6YFe358T21d":
         Script6();
         break;
-      case "6RNSTJ7a67N":
+      case "6d2vc3ZCnSS":
         Script7();
         break;
-      case "5jL62j4yQQ3":
+      case "5a1DFQ5NPPb":
         Script8();
         break;
-      case "6ljjXUoUche":
+      case "5Wuuh2bMqaU":
         Script9();
         break;
-      case "6RgeDS4xLyB":
+      case "5bX6XMxXAmV":
         Script10();
         break;
-      case "6G7mI0WXCO5":
+      case "5ZoMbhjSOuF":
         Script11();
         break;
-      case "6E8qQQXa2wG":
+      case "5gHhWQmdFrq":
         Script12();
         break;
-      case "6UkOy1m3TbF":
+      case "5mVc8KmqGZe":
         Script13();
         break;
-      case "6VyHZRXnCHi":
+      case "6DnQsoTlahe":
         Script14();
         break;
-      case "6T8njNLKZHR":
+      case "5zTzd5PJhXc":
         Script15();
         break;
-      case "5mD5mDElsOo":
+      case "5xk71pXzGc9":
         Script16();
         break;
-      case "6YhOzCaTfEM":
+      case "5i3BnSgpjkO":
         Script17();
         break;
-      case "6SSmoCJz52V":
+      case "6Iqbe8ZK7j9":
         Script18();
         break;
-      case "6fxOEe3I3mh":
+      case "6aY7xDdGjsz":
         Script19();
         break;
   }
@@ -64,8 +64,7 @@ function ExecuteScript(strId)
 
 function Script1()
 {
-  if(void 0===window.stencilsheets){var player=GetPlayer(),targlink="https://cluelabs.com/stencil/display/widget-sheets-init-v2?authtool=sl&v=1670694374&chart=NzMyfDM1NjF8OGFhODgzZThjY2EwZmZmNDQ5ODRlYTI4YWRlNGVmMmE";xhttp=new XMLHttpRequest,xhttp.onreadystatechange=function(){if(4==this.readyState&&200==this.status&&""!=this.responseText){var e=this.responseText,t=document.getElementsByTagName("head")[0],n=document.createElement("script");t.appendChild(n),n.appendChild(document.createTextNode(e)),window.stencilsheets=!0}},xhttp.open("GET",targlink,!0),xhttp.send()}
-        
+  if(void 0===window.stencilsheets){var player=GetPlayer(),targlink="https://cluelabs.com/stencil/display/widget-sheets-init-v2?authtool=sl&v=1671013284&chart=NzUzfDM1NjJ8NjliZDhlNzExYWRhM2E1OTMyNDc0NGVmOWQ2NTQ5ZjE";xhttp=new XMLHttpRequest,xhttp.onreadystatechange=function(){if(4==this.readyState&&200==this.status&&""!=this.responseText){var e=this.responseText,t=document.getElementsByTagName("head")[0],n=document.createElement("script");t.appendChild(n),n.appendChild(document.createTextNode(e)),window.stencilsheets=!0}},xhttp.open("GET",targlink,!0),xhttp.send()}
         
 }
 
